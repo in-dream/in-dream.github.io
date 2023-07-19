@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://4op.top/"/>
-  <updated>2023-07-19T02:51:13.514Z</updated>
+  <updated>2023-07-19T02:59:05.743Z</updated>
   <id>https://4op.top/</id>
   
   <author>
@@ -18,11 +18,11 @@
   
   
   <entry>
-    <title>2023-07-19.md</title>
+    <title>安装指定版本的Hexo</title>
     <link href="https://4op.top/2023/2023-07-19/"/>
     <id>https://4op.top/2023/2023-07-19/</id>
     <published>2023-07-19T02:19:37.000Z</published>
-    <updated>2023-07-19T02:51:13.514Z</updated>
+    <updated>2023-07-19T02:59:05.743Z</updated>
     
     
     <summary type="html">最近闲来无事又折腾了几天博客主题，原因是搭建在cloudstudio的服务器突然打不开了，折腾好久联系上技术以后说是”历史镜像的预热问题“咱外行人也不懂，处理完以后说我这个空间是2021年创建的，毕竟老，新版本的Bug会少点，我就尝试从新创建一个。</summary>

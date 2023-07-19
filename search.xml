@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>2023-07-19.md</title>
+      <title>安装指定版本的Hexo</title>
       <link href="/2023/2023-07-19/"/>
       <url>/2023/2023-07-19/</url>
       
-        <content type="html"><![CDATA[<p>最近闲来无事又折腾了几天博客主题，原因是搭建在cloudstudio的服务器突然打不开了，折腾好久联系上技术以后说是”历史镜像的预热问题“咱外行人也不懂，处理完以后说我这个空间是2021年创建的，毕竟老，新版本的Bug会少点，我就尝试从新创建一个。遇到了一下几个问题：</p><ol><li>之前按照的HEXO是4.21版本，现在最新版已经到6.2+，安装完以后发现主题不兼容，一堆报错。</li><li><strong>Node.js</strong>现在最低版本也是建议18.x，而我之前安的是10.0的，想直接用<a href="https://vercel.com/" target="_blank" rel="noopener">vercel</a>部署的想法也pass掉了。</li></ol><p>没办法，只能尝试按照旧版本的hexo了，在折腾好几天以后，总算安装成功。</p><h3 id="操作方法如下"><a href="#操作方法如下" class="headerlink" title="操作方法如下"></a>操作方法如下</h3><ol><li>安装Git</li></ol><ul><li>Linux (Ubuntu, Debian)：<code>sudo apt-get install git-core</code></li></ul><ol start="2"><li>安装旧版本Node.js</li></ol><p><code>curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -sudo apt-get install -y nodejs</code></p><ol start="3"><li>安装指定版本hexo：<code>npm i hexo@4.2.1</code></li></ol><p>不出意外的话就成功了，虽然会有一些报错，但不影响。</p><h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><p><img src="https://img.010316.xyz//usr/hugo/2022/image-20230719104942156.png" alt="image-20230719104942156"></p>]]></content>
+        <content type="html"><![CDATA[<p>最近闲来无事又折腾了几天博客主题，原因是搭建在cloudstudio的服务器突然打不开了，折腾好久联系上技术以后说是”历史镜像的预热问题“咱外行人也不懂，处理完以后说我这个空间是2021年创建的，毕竟老，新版本的Bug会少点，我就尝试从新创建一个。遇到了一下几个问题：</p><ol><li>之前按照的HEXO是4.21版本，现在最新版已经到6.2+，安装完以后发现主题不兼容，一堆报错。</li><li><strong>Node.js</strong>现在最低版本也是建议18.x，而我之前安的是10.0的，想直接用<a href="https://vercel.com/" target="_blank" rel="noopener">vercel</a>部署的想法也pass掉了。</li></ol><p>没办法，只能尝试按照旧版本的hexo了，在折腾好几天以后，总算安装成功。</p><h3 id="操作方法如下"><a href="#操作方法如下" class="headerlink" title="操作方法如下"></a>操作方法如下</h3><ol><li>安装Git Linux (Ubuntu, Debian)：<br><code>sudo apt-get install git-core</code></li><li>安装旧版本Node.js<br><code>curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -sudo apt-get install -y nodejs</code></li><li>安装指定版本hexo：<br><code>npm i hexo@4.2.1</code></li></ol><p>不出意外的话就成功了，虽然会有一些报错，但不影响。</p><h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><p><img src="https://img.010316.xyz//usr/hugo/2022/image-20230719104942156.png" alt="image-20230719104942156"></p>]]></content>
       
       
       <categories>
