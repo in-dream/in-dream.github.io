@@ -1,0 +1,428 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<!-- Head tag -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!--360 使用 Google Chrome Frame-->
+  <meta name="renderer" content="webkit">
+  <!--百度禁止转码-->
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <!--Description-->
+  
+  <meta name="description" content="我不会接受我不想要的未来，哪怕命中注定。">
+  
+  <meta name="google-site-verification" content="J4gssmXGNI9-DfJ9w52mL5KFPlRCYvySveEN0RJFZHU" />
+  <!--Author-->
+  
+  <meta name="author" content="chensu">
+  
+  <!--Open Graph Title-->
+  
+  <meta property="og:title" content="致简写作神器——Markdown" />
+  
+  <!--Open Graph Description-->
+  
+  <meta property="og:description" content="我不会接受我不想要的未来，哪怕命中注定。" />
+  
+  <!--Open Graph Site Name-->
+  <meta property="og:site_name" content="北海轻歌" />
+  <!--Type page-->
+  
+  <meta property="og:type" content="article" />
+  
+  <!--Page Cover-->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Title -->
+  
+  <title>致简写作神器——Markdown - 北海轻歌</title>
+  <!-- 添加到主屏后的标题（iOS 6 新增） -->
+  <meta name="apple-mobile-web-app-title" content="北海轻歌">
+  <!-- 是否启用 WebApp 全屏模式 -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!-- 禁止数字识自动别为电话号码 -->
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="shortcut icon" href="https://img.010316.xyz/usr/hugo/favicon.png">
+  <!--Apple iOS Safari ICON-->
+  <link rel="apple-touch-icon" sizes="57x57" href="https://imgur.lzmun.com/picgo/20200430223748.jpg_iPhone" />
+  <link rel="apple-touch-icon" sizes="72x72" href="https://imgur.lzmun.com/picgo/20200430223748.jpg_RetinaiPad" />
+  <link rel="apple-touch-icon" sizes="114x114" href="https://imgur.lzmun.com/picgo/20200430223748.jpg_iPhoneHD" />
+  <link rel="apple-touch-icon" sizes="144x144" href="https://imgur.lzmun.com/picgo/20200430223748.jpg_RetinaiPad" />
+  <!-- 添加 RSS 订阅 -->
+  <link rel="alternate" type="application/rss+xml" title="北海轻歌" href="/atom.xml" />
+  <!-- uc强制竖屏 -->
+  <meta name="screen-orientation" content="portrait">
+  <!-- QQ强制竖屏 -->
+  <meta name="x5-orientation" content="portrait">
+  <!-- UC强制全屏 -->
+  <meta name="full-screen" content="yes">
+  <!-- QQ强制全屏 -->
+  <meta name="x5-fullscreen" content="true">
+  <!-- UC应用模式 -->
+  <meta name="browsermode" content="application">
+  <!-- QQ应用模式 -->
+  <meta name="x5-page-mode" content="app">
+  <!-- Custom CSS/Sass -->
+  
+<link rel="stylesheet" href="/css/mdui.min.css">
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  <!--highlight.js CSS-->
+  
+  
+<link rel="stylesheet" href="/css/highlight/tomorrow-night-bright.css">
+
+  
+  
+  <!-- jquery -->
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <!-- PJAX -->
+  <script src="//cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
+  <script>
+  </script>
+  
+  
+  <!-- Google Analytics -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', '', 'auto', { 'siteSpeedSampleRate': 100 }, { 'alwaysSendReferrer': true });
+    ga('send', 'pageview');
+    ga('set', 'forceSSL', true);
+  </script>
+  
+  
+  
+  
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+
+<body>
+  <!-- Nav -->
+  <div style="display: none;" id="nav_menu" class="itp-nav-menu">
+  <div class="mdui-dialog-title">导航</div>
+  <div class="mdui-row-xs-2 mdui-nav-list" style="padding-bottom: 10px;">
+    
+    <a class="mdui-list-item mdui-ripple mdui-col" href="/">
+      <i class="mdui-list-item-icon mdui-icon material-icons itp-drawer-icon">home</i>
+      <div class="mdui-list-item-content itp-header-actions-menu" style="font-size: 14px; color: #757575;">首页
+      </div>
+    </a>
+    
+    <a class="mdui-list-item mdui-ripple mdui-col" href="/archives/">
+      <i class="mdui-list-item-icon mdui-icon material-icons itp-drawer-icon">move_to_inbox</i>
+      <div class="mdui-list-item-content itp-header-actions-menu" style="font-size: 14px; color: #757575;">归档
+      </div>
+    </a>
+    
+    <a class="mdui-list-item mdui-ripple mdui-col" href="/about.html">
+      <i class="mdui-list-item-icon mdui-icon material-icons itp-drawer-icon">person</i>
+      <div class="mdui-list-item-content itp-header-actions-menu" style="font-size: 14px; color: #757575;">关于
+      </div>
+    </a>
+    
+    <a class="mdui-list-item mdui-ripple mdui-col" href="/links.html">
+      <i class="mdui-list-item-icon mdui-icon material-icons itp-drawer-icon">link</i>
+      <div class="mdui-list-item-content itp-header-actions-menu" style="font-size: 14px; color: #757575;">友链
+      </div>
+    </a>
+    
+    <a class="mdui-list-item mdui-ripple mdui-col" href="/bb.html">
+      <i class="mdui-list-item-icon mdui-icon material-icons itp-drawer-icon">face</i>
+      <div class="mdui-list-item-content itp-header-actions-menu" style="font-size: 14px; color: #757575;">说说
+      </div>
+    </a>
+    
+  </div>
+</div>
+<header id="header" class="itp-header noprn">
+  <div id="appbar-index" class="mdui-appbar mdui-appbar-fixed itp-appbar_index mdui-shadow-0">
+    <div id="toolbar-index" class="mdui-toolbar mdui-shadow-0" style="justify-content: center;">
+      <a class="mdui-btn mdui-btn-icon itp-drawer-btn itp-header-actions_menu" style="color: #fff" data-fancybox data-src="#nav_menu" href="javascript:;"><i
+          class="mdui-icon material-icons">menu</i></a>
+      <a href="/" class="itp-header-title mdui-typo-title">Chen su</a>
+      <div class="itp-nav-action">
+        
+        <a href="/" class="mdui-btn itp-header-actions" style="color: rgb(0, 0, 0)">首页</a> 
+        
+        <a href="/archives/" class="mdui-btn itp-header-actions" style="color: rgb(0, 0, 0)">归档</a> 
+        
+        <a href="/about.html" class="mdui-btn itp-header-actions" style="color: rgb(0, 0, 0)">关于</a> 
+        
+        <a href="/links.html" class="mdui-btn itp-header-actions" style="color: rgb(0, 0, 0)">友链</a> 
+        
+        <a href="/bb.html" class="mdui-btn itp-header-actions" style="color: rgb(0, 0, 0)">说说</a> 
+        
+      </div>
+      <div class="itp-nav-action">
+        
+        <a href="/search.html" class="mdui-btn mdui-btn-icon itp-header-search-btn"><i class="mdui-icon material-icons"
+            style="line-height: 20px;">search</i></a>
+        
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Cover -->
+  <div class="itp-cover noprn">
+  <div class="itp-cover-text">
+    <div class="itp-cover-title mdui-text-center"
+      style="color: #fff; opacity: 1;">
+      致简写作神器——Markdown</div>
+    <div class="itp-cover-subtitle mdui-text-center"
+      style="color: #fff; opacity: 0.8;">
+      
+2018-09-30
+<span> / </span>
+
+<a class="category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
+
+
+<span> / </span>
+1.2k
+<style>
+  @media print {
+    .itp-cover-subtitle a {
+      color: #000 !important;
+    }
+  }
+
+  @media screen {
+    .itp-cover-subtitle a {
+      color: #fff !important;
+    }
+  }
+</style>
+</div>
+  </div>
+</div>
+<div class="itp-cover noscreen">
+  <div class="itp-cover-img">
+    
+    <img class="nofancy nodisplay" src="">
+    
+  </div>
+  <div class="itp-cover-text">
+    <div class="itp-cover-title mdui-text-center"
+      style="color: #000; opacity: 1;">
+      致简写作神器——Markdown</div>
+    <div class="itp-cover-subtitle mdui-text-center"
+      style="color: #000 !important; opacity: 0.8;">
+      
+2018-09-30
+<span> / </span>
+
+<a class="category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
+
+
+<span> / </span>
+1.2k
+<style>
+  @media print {
+    .itp-cover-subtitle a {
+      color: #000 !important;
+    }
+  }
+
+  @media screen {
+    .itp-cover-subtitle a {
+      color: #fff !important;
+    }
+  }
+</style>
+</div>
+  </div>
+</div>
+  <!-- Main Content -->
+  
+<!--<progress id="content_progress" value="0"></progress>-->
+<div class="mdui-container">
+  <div class="content-area">
+    <div class="mdui-row">
+      <div class="mdui-col-md-2 mdui-col-xs-down"></div>
+      <div class="mdui-col-md-8 mdui-col-xs-12">
+        <div class="mdui-card itp-post-card">
+          <!--正文-->
+          <section class="mdui-card-content itp-post-content article" role="article">
+            <h2 id="1-Markdown？"><a href="#1-Markdown？" class="headerlink" title="1. Markdown？"></a>1. Markdown？</h2><p><a href="https://en.wikipedia.org/wiki/Markdown?achuan.io" target="_blank" rel="noopener">Markdown</a>是什么？<br>Markdown 是由 John Gruber 在2004年创建的「轻量级标记语言」，至今它已经有14岁了！ </p>
+<p>Markdown最初的定义<strong>纯文本语法</strong>。<br>设计理念就是易写、易读。<br>它那么的纯洁、致简、美妙感觉词汇已经不能形容Markdown的美。试着写一写，你也会爱上它。</p>
+<h2 id="2-Markdown-它有哪些优点？"><a href="#2-Markdown-它有哪些优点？" class="headerlink" title="2. Markdown 它有哪些优点？"></a>2. Markdown 它有哪些优点？</h2><p>前文说了它的定义与设计理念，易写、易读，无非就是Markdown最大的特点。</p>
+<h3 id="一-所谓易写？"><a href="#一-所谓易写？" class="headerlink" title="一. 所谓易写？"></a>一. 所谓易写？</h3><p>这里说的易写，是指写作的过程。因为它语法的原因且编辑器实时预览的情况下，差不多全程键盘，基本脱离对鼠标的依赖。这样就可以集中精力放在文章上。因为它语法简单，所以书写错误易发现。</p>
+<h3 id="二-所谓易读？"><a href="#二-所谓易读？" class="headerlink" title="二. 所谓易读？"></a>二. 所谓易读？</h3><p>所谓易读，可不要理解为<strong>排版之后呈现出来的结果</strong>，这里的<strong>易读</strong>是指<strong>源代码文件</strong>（也就是以 <strong>.md</strong>;<strong>.markdown</strong>;<strong>.mdown</strong> 后缀名的文件）它不会像写Html时那样，满屏幕都是密密麻麻的&lt;标签&gt;与选择器…</p>
+<h2 id="3-Markdown的优势与局限"><a href="#3-Markdown的优势与局限" class="headerlink" title="3. Markdown的优势与局限"></a>3. Markdown的优势与局限</h2><p>我们知道Markdown只是一个&lt;轻量级标记语言&gt;，相比xml、html或Word、Pages这类，Markdown在排版的功能上显的弱一点。</p>
+<h3 id="一-Markdown无法对段落进行灵活处理"><a href="#一-Markdown无法对段落进行灵活处理" class="headerlink" title="一.  Markdown无法对段落进行灵活处理"></a>一.  Markdown无法对段落进行灵活处理</h3><p>在word中，像文本框，图片你可以随意调整它的位置。但Markdown不行，相比Markdown只能线性的对文字进行排版。</p>
+<h3 id="二-Markdown对非纯文本元素的排版能力很差"><a href="#二-Markdown对非纯文本元素的排版能力很差" class="headerlink" title="二. Markdown对非纯文本元素的排版能力很差"></a>二. Markdown对非纯文本元素的排版能力很差</h3><p>一篇文章，如果只有文字的话，总有感觉有点枯燥枯燥，但是Markdown限于纯文本格式，Markdown几乎做不到像Word那样对图片灵活的调整位置。</p>
+<h3 id="三-Markdown专注你的文字内容，而不是排版"><a href="#三-Markdown专注你的文字内容，而不是排版" class="headerlink" title="三. Markdown专注你的文字内容，而不是排版"></a>三. Markdown专注你的文字内容，而不是排版</h3><p>Markdown不像Word那样花哨，应为语法的缘故吧，感觉它是那么的纯洁，做纯文字处理很棒的，我每次使用Markdown写文章时，有种很美妙的感觉…</p>
+<h2 id="4-Markdown语法与编辑器"><a href="#4-Markdown语法与编辑器" class="headerlink" title="4. Markdown语法与编辑器"></a>4. Markdown语法与编辑器</h2><p>Markdown语法的目标是：<strong>成为一种使用网络的书写语言</strong>。<br>毕竟我们的易写、易读是有目共睹的，立志做书写语言我们是认真的！  </p>
+<h3 id="Retext的安装"><a href="#Retext的安装" class="headerlink" title="Retext的安装"></a>Retext的安装</h3><p>日常我都是用Ubuntu18.04LTS，Markdown编辑器我用的是<a href="https://pypi.org/project/ReText?achuan.io" target="_blank" rel="noopener">ReText</a>，不过windows、Mac也有很多优秀支持Markdown的编辑器，如MarkdownPad、Sublime Text3、Marxico等等…在这里我就不一一介绍了。</p>
+<h4 id="1-安装"><a href="#1-安装" class="headerlink" title="1. 安装"></a>1. 安装</h4><pre><code class="bash">$ sudo apt-get install retext
+
+# 也可以到官网下载，有deb包。</code></pre>
+<h4 id="2-配置"><a href="#2-配置" class="headerlink" title="2. 配置"></a>2. 配置</h4><pre><code class="bash"># 添加数学公式的支持
+$ sudo apt-get install libjs-mathjax</code></pre>
+<p>然后在”<strong>extensions.txt</strong>“中添加”<strong>mathjax</strong>“（没有这个文件创建一个）  `</p>
+<pre><code class="bash"># 添加：mathjax
+$ vim .config/markdown-extensions.txt</code></pre>
+<p>ok!  如果需要网页在线编辑器<a href="https://www.zybuluo.com/mdeditor?achuan.io" target="_blank" rel="noopener">MaHua 在线markdown编辑器</a></p>
+<p>语法比较简单，就不一一说了<a href="http://www.360doc.com/content/16/1221/02/1489589_616432866.shtml?achuan.io" target="_blank" rel="noopener">Markdown 语法手册 （完整整理版）</a></p>
+
+          </section>
+          <!--文章底部信息-->
+          <section class="mdui-card-content itp-post-content">
+            <div class="mdui-text-center">
+              <div class="itp-post-subtitle">
+                2018-09-30
+                
+                <span> / </span>
+                <a class="category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
+                
+                <span> / </span>
+                1.2k
+              </div>
+            </div>
+            
+            <div class="mdui-text-center" style="padding-top: 2px; font-size: .75rem !important;">
+              <div class="tags-links">
+                
+                <div class="mdui-chip">
+                  <a class="mdui-chip-title" href="/tags/Markdown/" rel="tag">
+                    Markdown
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+            
+          </section>
+          <section class="mdui-card-content itp-page-select">
+            <!--文章页页面选择器-->
+<div class="pagination noprn">
+  <div class="mdui-col-xs-6">
+    
+    <div class="itp-page-select-prev">
+      <a class="mdui-btn mdui-btn-icon" href="/2018/2018-10-14-git/"><i
+          class="mdui-icon material-icons">arrow_back</i></a>
+      <a class="mdui-chip-title" rel="prev" href="/2018/2018-10-14-git/">上一篇</a>
+    </div>
+    
+  </div>
+  <div class="mdui-col-xs-6">
+    
+    <div class="itp-page-select-next  mdui-float-right">
+      <a class="mdui-chip-title" rel="next" href="/2018/2018-08-30-Ubuntu-set-up-sublime/">下一篇</a>
+      <a class="mdui-btn mdui-btn-icon" href="/2018/2018-08-30-Ubuntu-set-up-sublime/"><i
+          class="mdui-icon material-icons">arrow_forward</i></a>
+    </div>
+    
+  </div>
+</div>
+          </section>
+          <section class="itp-post-comment noprn">
+            <!--评论-->
+
+<!--disqus-->
+<div id="comment"></div>
+    <link rel="stylesheet" href="https://www.4op.top/disqusjs/iDisqus.min.css" />
+    <script src="https://www.4op.top/disqusjs/iDisqus.min.js"></script>
+<script>
+      var disq = new iDisqus('comment', {
+        forum: 'chensu8',
+        api: 'https://api.4op.top/disqus/api',
+        site: 'https://www.4op.top/',
+        mode: 3,
+        timeout: 3000,
+        init: true,
+		relatedType: false,
+      });
+</script>
+<!--disqusjs-->
+<link rel="stylesheet" href="/disqusjs/disqusjs.css">
+<script src="/disqusjs/disqus.js"></script>
+<div id="disqus_thread"></div>
+<script>
+  var dsqjs = new DisqusJS({
+    shortname: "",
+    siteName: "",
+    identifier: "https://4op.top/2018/2018-09-03-Markdown/",
+    url: "https://4op.top/2018/2018-09-03-Markdown/",
+    api: "",
+    apikey: "",
+    admin: "",
+    adminLabel: ""
+  });
+</script>
+
+          </section>
+        </div>
+      </div>
+      <div class="mdui-col-md-2 mdui-col-xs-down">
+        <!--
+
+<div id="toc" class="noprn nodisplay">
+  <ol class="itp-toc"><li class="itp-toc-item itp-toc-level-2"><a class="itp-toc-link" href="#1-Markdown？"><span class="itp-toc-text">1. Markdown？</span></a></li><li class="itp-toc-item itp-toc-level-2"><a class="itp-toc-link" href="#2-Markdown-它有哪些优点？"><span class="itp-toc-text">2. Markdown 它有哪些优点？</span></a><ol class="itp-toc-child"><li class="itp-toc-item itp-toc-level-3"><a class="itp-toc-link" href="#一-所谓易写？"><span class="itp-toc-text">一. 所谓易写？</span></a></li><li class="itp-toc-item itp-toc-level-3"><a class="itp-toc-link" href="#二-所谓易读？"><span class="itp-toc-text">二. 所谓易读？</span></a></li></ol></li><li class="itp-toc-item itp-toc-level-2"><a class="itp-toc-link" href="#3-Markdown的优势与局限"><span class="itp-toc-text">3. Markdown的优势与局限</span></a><ol class="itp-toc-child"><li class="itp-toc-item itp-toc-level-3"><a class="itp-toc-link" href="#一-Markdown无法对段落进行灵活处理"><span class="itp-toc-text">一.  Markdown无法对段落进行灵活处理</span></a></li><li class="itp-toc-item itp-toc-level-3"><a class="itp-toc-link" href="#二-Markdown对非纯文本元素的排版能力很差"><span class="itp-toc-text">二. Markdown对非纯文本元素的排版能力很差</span></a></li><li class="itp-toc-item itp-toc-level-3"><a class="itp-toc-link" href="#三-Markdown专注你的文字内容，而不是排版"><span class="itp-toc-text">三. Markdown专注你的文字内容，而不是排版</span></a></li></ol></li><li class="itp-toc-item itp-toc-level-2"><a class="itp-toc-link" href="#4-Markdown语法与编辑器"><span class="itp-toc-text">4. Markdown语法与编辑器</span></a><ol class="itp-toc-child"><li class="itp-toc-item itp-toc-level-3"><a class="itp-toc-link" href="#Retext的安装"><span class="itp-toc-text">Retext的安装</span></a><ol class="itp-toc-child"><li class="itp-toc-item itp-toc-level-4"><a class="itp-toc-link" href="#1-安装"><span class="itp-toc-text">1. 安装</span></a></li><li class="itp-toc-item itp-toc-level-4"><a class="itp-toc-link" href="#2-配置"><span class="itp-toc-text">2. 配置</span></a></li></ol></li></ol></li></ol>
+</div>
+-->
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <!-- Footer -->
+<footer class="mdui-text-center itp-footer">
+  <section class="footer-info">
+    北海轻歌 &copy; 2016 - 2023
+    
+    <span> / </span>
+    48k
+    
+    
+    <span> / </span>
+    <a href="http://www.beian.miit.gov.cn" target="_blank" rel="noopener">晋ICP备18002380号</a>
+    
+    
+  </section>
+  
+  <section class="footer-logo">
+    <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank"><img class="cdn-img"
+        src="https://img.010316.xyz/usr/hugo/%E5%8F%88%E6%8B%8D%E4%BA%91_logo5.png"></a>
+    
+  </section>
+</footer>
+  <!-- After footer scripts -->
+  <!-- fancybox -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<script src="/js/mdui.min.js"></script>
+
+
+
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+  $("code").each(function () {
+    $(this).html("<ol><li>" + $(this).html().replace(/\n/g, "\n</li><li>") + "\n</li></ol>");
+  });
+</script>
+
+
+
+<script src="/js/app.js"></script>
+
+</body>
+
+
+</html>

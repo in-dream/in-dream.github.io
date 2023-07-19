@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>北海轻歌</title>
+  <icon>https://imgur.lzmun.com/picgo/20190625163454.jpg</icon>
+  <subtitle>琛苏设计</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://4op.top/"/>
+  <updated>2023-07-19T02:51:13.514Z</updated>
+  <id>https://4op.top/</id>
+  
+  <author>
+    <name>chensu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  
+  <entry>
+    <title>2023-07-19.md</title>
+    <link href="https://4op.top/2023/2023-07-19/"/>
+    <id>https://4op.top/2023/2023-07-19/</id>
+    <published>2023-07-19T02:19:37.000Z</published>
+    <updated>2023-07-19T02:51:13.514Z</updated>
+    
+    
+    <summary type="html">最近闲来无事又折腾了几天博客主题，原因是搭建在cloudstudio的服务器突然打不开了，折腾好久联系上技术以后说是”历史镜像的预热问题“咱外行人也不懂，处理完以后说我这个空间是2021年创建的，毕竟老，新版本的Bug会少点，我就尝试从新创建一个。</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://4op.top/categories/Hexo/"/>
+    
+    
+    <category term="折腾" scheme="https://4op.top/tags/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2023年第一更</title>
+    <link href="https://4op.top/2023/wuti/"/>
+    <id>https://4op.top/2023/wuti/</id>
+    <published>2023-07-11T11:41:47.000Z</published>
+    <updated>2023-07-19T02:18:44.197Z</updated>
+    
+    
+    <summary type="html">这个主题基本上是从折腾博客以来用的最久的一个了，这几天一直想着换一下，也想从hexo换到hugo，找来找去也没有心仪的，心态变了。而且每换一次，总要丢掉点东西，算了吧。</summary>
+    
+    
+    
+    <category term="生活记" scheme="https://4op.top/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0/"/>
+    
+    
+    <category term="记录 果然" scheme="https://4op.top/tags/%E8%AE%B0%E5%BD%95-%E6%9E%9C%E7%84%B6/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>近半年总结日记</title>
+    <link href="https://4op.top/2022/6yue/"/>
+    <id>https://4op.top/2022/6yue/</id>
+    <published>2022-06-29T11:49:58.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;博客有将近半年没有打理了，除了忙以外，还有一个原因是近半年来有点玩物尚志了，事情还得从过年说起，过年那几天休息在家的时候，忘记是在抖音还是哪里，看到一款叫口袋骑兵的游戏广告，而且从微信小程序里就可以打开，最开始我一度以为是腾讯的游戏。闲着无聊，就随便玩玩，每天打怪升级，比较</summary>
+        
+      
+    
+    
+    
+    <category term="生活记" scheme="https://4op.top/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0/"/>
+    
+    
+    <category term="疫情" scheme="https://4op.top/tags/%E7%96%AB%E6%83%85/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>域名备案掉了</title>
+    <link href="https://4op.top/2022/beian/"/>
+    <id>https://4op.top/2022/beian/</id>
+    <published>2022-03-17T14:42:02.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;换了工作近半年了，一直在学习中，工作也多了&lt;br&gt;从工程转到保险，一个完全不想关的行业&lt;br&gt;现在分在校责险的项目小组，说实在的，比之前的工作有意思&lt;/p&gt;
+&lt;h3 id=&quot;备案&quot;&gt;&lt;a href=&quot;#备案&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="记事" scheme="https://4op.top/categories/%E8%AE%B0%E4%BA%8B/"/>
+    
+    
+    <category term="网站" scheme="https://4op.top/tags/%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>备案掉了</title>
+    <link href="https://4op.top/2022/moment/20220310/"/>
+    <id>https://4op.top/2022/moment/20220310/</id>
+    <published>2022-03-10T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;莫名其妙在景安的备案掉了&lt;br&gt;也没收到邮件通知，有点措手不及&lt;br&gt;最近在忙，先转移到vercel吧，等闲下来再处理&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;又拍云也提醒了&lt;br&gt;有几天可能图片也访问呢不了&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>动物园、古县城游记</title>
+    <link href="https://4op.top/2021/2021-10-26-youji/"/>
+    <id>https://4op.top/2021/2021-10-26-youji/</id>
+    <published>2021-10-26T13:56:24.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这几天媳妇又开始了忙活起来了，天天就是淘宝，抖音，小红书。目的只有一个，果然的三岁生日装扮，说现在流行什么星黛露，我以为是一种场景效果，百度了一下越来就是一只迪士尼兔子，名字叫&lt;em&gt;星黛露&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;一直一来我觉得花钱买一堆乱七八糟的东西，然后在折腾好久装</summary>
+        
+      
+    
+    
+    
+    <category term="游记" scheme="https://4op.top/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    
+    <category term="果然" scheme="https://4op.top/tags/%E6%9E%9C%E7%84%B6/"/>
+    
+    <category term="古县城" scheme="https://4op.top/tags/%E5%8F%A4%E5%8E%BF%E5%9F%8E/"/>
+    
+    <category term="动物园" scheme="https://4op.top/tags/%E5%8A%A8%E7%89%A9%E5%9B%AD/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今年中秋没赏月</title>
+    <link href="https://4op.top/2021/zhongqiujie/"/>
+    <id>https://4op.top/2021/zhongqiujie/</id>
+    <published>2021-09-22T16:08:14.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+    <summary type="html">中秋放假三天，放假前一个星期就开始期待了，直到放了假。一眨眼三天就过去完了，今天是节后上班第一天，我坐在这里码字。</summary>
+    
+    
+    
+    <category term="中秋" scheme="https://4op.top/categories/%E4%B8%AD%E7%A7%8B/"/>
+    
+    
+    <category term="果然" scheme="https://4op.top/tags/%E6%9E%9C%E7%84%B6/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>这个夏天，我愿你没来过</title>
+    <link href="https://4op.top/2021/2021-8-16-zhe-ge-xia-tian/"/>
+    <id>https://4op.top/2021/2021-8-16-zhe-ge-xia-tian/</id>
+    <published>2021-08-16T10:57:32.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;看了一下，上次写文章是五月六号。已经过去了三个月，从今年开始写作的频率下降了许多，主要是写着写着发现都是一些琐事，犯不着与人分享。最开始是想着提高一下我的表达能力。但是写出来的都是一些流水账而已。至此，我找不到更新博客的目的了。&lt;/p&gt;
+&lt;p&gt;索性，换了个域名，自己随便说说</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>五月日记</title>
+    <link href="https://4op.top/2021/wuyue/"/>
+    <id>https://4op.top/2021/wuyue/</id>
+    <published>2021-06-07T15:51:39.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这是一个忙碌的五月。&lt;/p&gt;
+&lt;p&gt;时隔3年，我又一次搬家了，在媳妇一年多的唠叨下，这次终于下决心把房子重新改造了一下。乘着五一假期，第一步，先把窗户给换了，换成了断桥铝的，因为原来开发商配套的塑钢窗质量差的厉害，每年都是冬天进风夏天进蚊子。1号，把家里整理了个乱七八糟，沙</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://4op.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>二月杂谈</title>
+    <link href="https://4op.top/2021/2021-2-24-md/"/>
+    <id>https://4op.top/2021/2021-2-24-md/</id>
+    <published>2021-02-24T16:36:05.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;年初关于优秀员工培养计划的会议开完已经一周了，而我的会议纪要还没开始写，对于不想干的事情，总是很抗拒。明明知道越拖下去越危险，但是我总能拖到最后一刻。&lt;/p&gt;
+&lt;p&gt;不好好写会议纪要却又偏偏想要胡言乱语，其实也没啥值得记录的。&lt;strong&gt;记录一下近期发生的事件吧&lt;/st</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://4op.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="地铁2号线" scheme="https://4op.top/tags/%E5%9C%B0%E9%93%812%E5%8F%B7%E7%BA%BF/"/>
+    
+    <category term="果然退保" scheme="https://4op.top/tags/%E6%9E%9C%E7%84%B6%E9%80%80%E4%BF%9D/"/>
+    
+    <category term="薅羊毛" scheme="https://4op.top/tags/%E8%96%85%E7%BE%8A%E6%AF%9B/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>人生没得选择[转载]</title>
+    <link href="https://4op.top/2021/ren-sheng-mei-de-xuan-ze/"/>
+    <id>https://4op.top/2021/ren-sheng-mei-de-xuan-ze/</id>
+    <published>2021-02-02T09:23:47.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;不知不觉，我已经快40岁了。&lt;/p&gt;
+&lt;p&gt;到我们这个年纪，人生基本定型，一般不会再改变自己后面的职业，收入不会有很大的变化，所处的社会阶层也很少变动，主要精力在认真工作和养育儿女，通常都折腾不起了，以前动不动网吧通霄打星际魔兽，通霄搞双十一发货，现在熬个夜要补三天觉才回得</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>我是与众不同的</title>
+    <link href="https://4op.top/2021/2021-1-26/"/>
+    <id>https://4op.top/2021/2021-1-26/</id>
+    <published>2021-01-26T14:51:10.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+    <summary type="html">我是谁？我是怎么来的？我的思想怎么形成的？在之后的几年时间中，我就时不时思考这个问题，我为什么是我？世界上或者宇宙中还有没有另一个我？我是第一次来到这个世界吗？我死了以后我的记忆还能保留吗？</summary>
+    
+    
+    
+    
+    <category term="生活" scheme="https://4op.top/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>新年疫情</title>
+    <link href="https://4op.top/2021/moment/202116/"/>
+    <id>https://4op.top/2021/moment/202116/</id>
+    <published>2021-01-06T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;受国际庄疫情影响，媳妇不让做公交了，坚持了一个多月的公交出行结束了，还有那刚坐了几天的地铁2号线。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>写在20年的最后一个月</title>
+    <link href="https://4op.top/2020/2020-12-8-%E5%86%99%E5%9C%A820%E5%B9%B4%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E6%9C%88/"/>
+    <id>https://4op.top/2020/2020-12-8-%E5%86%99%E5%9C%A820%E5%B9%B4%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E6%9C%88/</id>
+    <published>2020-12-08T16:57:15.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;感冒定律&quot;&gt;&lt;a href=&quot;#感冒定律&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://4op.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="果然" scheme="https://4op.top/tags/%E6%9E%9C%E7%84%B6/"/>
+    
+    <category term="感冒" scheme="https://4op.top/tags/%E6%84%9F%E5%86%92/"/>
+    
+    <category term="坐公交" scheme="https://4op.top/tags/%E5%9D%90%E5%85%AC%E4%BA%A4/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>博客换到vercel</title>
+    <link href="https://4op.top/2020/2020-11-27zhuan-yi-dao-vercel-md/"/>
+    <id>https://4op.top/2020/2020-11-27zhuan-yi-dao-vercel-md/</id>
+    <published>2020-11-27T16:17:24.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在开始&quot;&gt;&lt;a href=&quot;#写在开始&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2020年11月7日打卡植物园</title>
+    <link href="https://4op.top/2020/zhi-wu-yuan/"/>
+    <id>https://4op.top/2020/zhi-wu-yuan/</id>
+    <published>2020-11-11T11:09:19.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;植物园国庆的时候就开园了，要去需要提前在微信公众号上面预约，每天限量5000人，国庆期间我只抢到一张票，就没去。前段时间改了植物园又修改了预约规则，前一天晚上八点整放第二天的票。正好上周五下班回家，媳妇说想出去溜达溜达，在家憋了好久了。&lt;/p&gt;
+&lt;p&gt;动物园和植物园二选一，</summary>
+        
+      
+    
+    
+    
+    <category term="游记" scheme="https://4op.top/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    
+    <category term="植物园" scheme="https://4op.top/tags/%E6%A4%8D%E7%89%A9%E5%9B%AD/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>10月没在路上</title>
+    <link href="https://4op.top/2020/2020-10-9-mei-zai-lu-shang/"/>
+    <id>https://4op.top/2020/2020-10-9-mei-zai-lu-shang/</id>
+    <published>2020-10-09T16:25:50.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+    <summary type="html">黎明的到来不一定能给人希望，但总是能抹去昨日的昏暗。</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://4op.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="国庆" scheme="https://4op.top/tags/%E5%9B%BD%E5%BA%86/"/>
+    
+    <category term="中秋" scheme="https://4op.top/tags/%E4%B8%AD%E7%A7%8B/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>秋天的第一杯奶茶</title>
+    <link href="https://4op.top/2020/moment/%E7%A7%8B%E5%A4%A9%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9D%AF%E5%A5%B6%E8%8C%B6/"/>
+    <id>https://4op.top/2020/moment/%E7%A7%8B%E5%A4%A9%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9D%AF%E5%A5%B6%E8%8C%B6/</id>
+    <published>2020-09-24T10:46:50.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;秋天的第一杯奶茶&quot;&gt;&lt;a href=&quot;#秋天的第一杯奶茶&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>小人物的声音</title>
+    <link href="https://4op.top/2020/2020-9-18-xiao-ren-wu-de-bei-ai/"/>
+    <id>https://4op.top/2020/2020-9-18-xiao-ren-wu-de-bei-ai/</id>
+    <published>2020-09-18T11:12:27.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;午休时间，闲来无事。一个半小时的时间，刚够看一部电影，近期新上映的电影能看的都看完了。&lt;del&gt;花木兰的评分对得起这部电影。&lt;/del&gt;想搜个喜剧片看看，然后排第一的是一部韩国片《购物车》。&lt;/p&gt;
+&lt;p&gt;一部2014年的电影，直到看完这部剧都没有发现一点带有喜剧色彩的片段</summary>
+        
+      
+    
+    
+    
+    <category term="电影" scheme="https://4op.top/categories/%E7%94%B5%E5%BD%B1/"/>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>写在七夕节</title>
+    <link href="https://4op.top/2020/2020-8-24-xie-zai-qi-xi-jie/"/>
+    <id>https://4op.top/2020/2020-8-24-xie-zai-qi-xi-jie/</id>
+    <published>2020-08-24T17:02:36.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近比较忙，主要是工作的事情，晋城/长治出差一个星期，走的时候说顺利的话第二天就可以回来。得亏动了一下脑子，走的时候多带了身替换的衣服，虽说已经立秋了，但是外面跑一天还是会出汗。&lt;/p&gt;
+&lt;p&gt;关于工作，上星期出了个差错。是工作态度导致的，这项工作是每天都在重复同样的内容，</summary>
+        
+      
+    
+    
+    
+    <category term="果然" scheme="https://4op.top/categories/%E6%9E%9C%E7%84%B6/"/>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>生日快乐</title>
+    <link href="https://4op.top/2020/moment/2020803/"/>
+    <id>https://4op.top/2020/moment/2020803/</id>
+    <published>2020-08-03T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;生日快乐啊，宝贝。&quot;&gt;&lt;a href=&quot;#生日快乐啊，宝贝。&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>迟到的幼儿急疹</title>
+    <link href="https://4op.top/2020/chi-dao-de-you-er-ji-zhen/"/>
+    <id>https://4op.top/2020/chi-dao-de-you-er-ji-zhen/</id>
+    <published>2020-07-31T15:20:18.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+    <summary type="html">有东西被加密了, 请输入密码查看.</summary>
+    
+    
+    
+    <category term="果然" scheme="https://4op.top/categories/%E6%9E%9C%E7%84%B6/"/>
+    
+    
+    <category term="果然" scheme="https://4op.top/tags/%E6%9E%9C%E7%84%B6/"/>
+    
+    <category term="幼儿急疹" scheme="https://4op.top/tags/%E5%B9%BC%E5%84%BF%E6%80%A5%E7%96%B9/"/>
+    
+    <category term="刷机" scheme="https://4op.top/tags/%E5%88%B7%E6%9C%BA/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>换到hexo</title>
+    <link href="https://4op.top/2020/moment/200626/"/>
+    <id>https://4op.top/2020/moment/200626/</id>
+    <published>2020-07-14T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;又从hugo换到hexo了，无缝连接。用CloudBase</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>写作课考试</title>
+    <link href="https://4op.top/2020/moment/200709/"/>
+    <id>https://4op.top/2020/moment/200709/</id>
+    <published>2020-07-09T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在家和公司这两点一线中来来回回，我需要改变。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>第一次当幸运用户</title>
+    <link href="https://4op.top/2020/2020-6-2-di-yi-ci-dang-xing-yun-guan-zhong/"/>
+    <id>https://4op.top/2020/2020-6-2-di-yi-ci-dang-xing-yun-guan-zhong/</id>
+    <published>2020-06-02T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;故事要从半个月前说起。&lt;/p&gt;
+&lt;p&gt;五月份的某一天，同事给我微信发了个小程序让给他点赞，是太原印象城新开业的活动，点赞排名前40的送700元华为P40的抵扣券。我也就随手参加了一下，&lt;del&gt;我可以不用，但是我不能没有。&lt;/del&gt;因为早就想给媳妇换个手机了，但是感觉这个</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://4op.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="果然" scheme="https://4op.top/tags/%E6%9E%9C%E7%84%B6/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2020年第一季度总结</title>
+    <link href="https://4op.top/2020/2020-5-12-yi-ji-du-zong-jie.md/"/>
+    <id>https://4op.top/2020/2020-5-12-yi-ji-du-zong-jie.md/</id>
+    <published>2020-05-12T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://4op.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>车难停</title>
+    <link href="https://4op.top/2020/2020-04-09-che-nan-ting/"/>
+    <id>https://4op.top/2020/2020-04-09-che-nan-ting/</id>
+    <published>2020-04-09T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+    <summary type="html">四月的天，应该是阳光明媚，春暖花开的日子。早晨起来却是呼呼的北风，吹的脸生疼。打开天气预报，还有雨夹雪。这天气，真豪横，说风就是雨.</summary>
+    
+    
+    
+    <category term="生活" scheme="https://4op.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>typora写作新姿势之PicGo</title>
+    <link href="https://4op.top/2020/2020-03-23-typora-xie-zuo-xin-zi-shi.md/"/>
+    <id>https://4op.top/2020/2020-03-23-typora-xie-zuo-xin-zi-shi.md/</id>
+    <published>2020-03-23T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+    <summary type="html">今天发现一个全自动利器**PicGo**，真的很牛逼，我写这篇文章也是迫不及待想试试用起来顺不顺手。</summary>
+    
+    
+    
+    <category term="技术" scheme="https://4op.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="typora" scheme="https://4op.top/tags/typora/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hugo通过命令一键部署</title>
+    <link href="https://4op.top/2020/2020-03-20-hugo-tong-guo-ming-ling-yi-jian-bu-shu/"/>
+    <id>https://4op.top/2020/2020-03-20-hugo-tong-guo-ming-ling-yi-jian-bu-shu/</id>
+    <published>2020-03-20T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+    <summary type="html">一个命令可以化腐朽为神奇，越来越喜欢程序员这个职业了，可以将许多不可能变为可能.</summary>
+    
+    
+    
+    <category term="技术" scheme="https://4op.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>关于域名编号标注</title>
+    <link href="https://4op.top/2020/2020-03-13-wang-zhan-biao-zhu-bei-an-bian-hao/"/>
+    <id>https://4op.top/2020/2020-03-13-wang-zhan-biao-zhu-bei-an-bian-hao/</id>
+    <published>2020-03-13T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+    <summary type="html">昨天领了好几张腾讯云的域名续费卷，满40-20和满20-10的，所以就转回到腾讯云吧，起码能续费七八年了。</summary>
+    
+    
+    
+    
+    <category term="域名" scheme="https://4op.top/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>这都什么事</title>
+    <link href="https://4op.top/2020/2020-03-03-zhe-du-shen-me-shi/"/>
+    <id>https://4op.top/2020/2020-03-03-zhe-du-shen-me-shi/</id>
+    <published>2020-03-03T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+    <summary type="html">在家休息了一个月的时间，本来想写点东西来，但一想还得从包里往出拿笔记本，还得开机。想想还是算了，床上多舒服。</summary>
+    
+    
+    
+    <category term="过年" scheme="https://4op.top/categories/%E8%BF%87%E5%B9%B4/"/>
+    
+    
+    <category term="新冠肺炎" scheme="https://4op.top/tags/%E6%96%B0%E5%86%A0%E8%82%BA%E7%82%8E/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>我们比任何时候都更需要爱与希望</title>
+    <link href="https://4op.top/2020/moment/%E6%88%91%E4%BB%AC%E6%AF%94%E4%BB%BB%E4%BD%95%E6%97%B6%E5%80%99%E9%83%BD%E6%9B%B4%E9%9C%80%E8%A6%81%E7%88%B1%E4%B8%8E%E5%B8%8C%E6%9C%9B/"/>
+    <id>https://4op.top/2020/moment/%E6%88%91%E4%BB%AC%E6%AF%94%E4%BB%BB%E4%BD%95%E6%97%B6%E5%80%99%E9%83%BD%E6%9B%B4%E9%9C%80%E8%A6%81%E7%88%B1%E4%B8%8E%E5%B8%8C%E6%9C%9B/</id>
+    <published>2020-02-08T12:54:55.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>既然总想着怎么用动态博客的方法管理 Hexo 的博客文章，为什么不直接换 Typecho 呢</title>
+    <link href="https://4op.top/2020/moment/%E5%85%B3%E4%BA%8Ehexo%E5%92%8C%E5%8A%A8%E6%80%81%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%80%E7%82%B9%E6%83%B3%E6%B3%95/"/>
+    <id>https://4op.top/2020/moment/%E5%85%B3%E4%BA%8Ehexo%E5%92%8C%E5%8A%A8%E6%80%81%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%80%E7%82%B9%E6%83%B3%E6%B3%95/</id>
+    <published>2020-02-02T14:02:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>开学的时候想着放假就能休息一下了，放假的时候想着开学就没那么无聊了。</title>
+    <link href="https://4op.top/2020/moment/%E6%94%BE%E5%81%87%E4%BA%86%E6%83%B3%E5%BC%80%E5%AD%A6%EF%BC%8C%E5%BC%80%E5%AD%A6%E4%BA%86%E6%83%B3%E6%94%BE%E5%81%87/"/>
+    <id>https://4op.top/2020/moment/%E6%94%BE%E5%81%87%E4%BA%86%E6%83%B3%E5%BC%80%E5%AD%A6%EF%BC%8C%E5%BC%80%E5%AD%A6%E4%BA%86%E6%83%B3%E6%94%BE%E5%81%87/</id>
+    <published>2020-01-30T15:22:08.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>一次失败的购物日记</title>
+    <link href="https://4op.top/2020/2020-01-10-yi-ci-shi-bai-de-gou-wu-ri-ji/"/>
+    <id>https://4op.top/2020/2020-01-10-yi-ci-shi-bai-de-gou-wu-ri-ji/</id>
+    <published>2020-01-10T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;新的一年却没有新的气象&quot;&gt;&lt;a href=&quot;#新的一年却没有新的气象&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://4op.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>年终记录</title>
+    <link href="https://4op.top/2019/2019-12-31-nian-zhong-ji-lu/"/>
+    <id>https://4op.top/2019/2019-12-31-nian-zhong-ji-lu/</id>
+    <published>2019-12-31T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;果然&quot;&gt;&lt;a href=&quot;#果然&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://4op.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="果然" scheme="https://4op.top/tags/%E6%9E%9C%E7%84%B6/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>再次折腾Gridea</title>
+    <link href="https://4op.top/2019/2019-12-13-zai-ci-zhen-teng-Gridea/"/>
+    <id>https://4op.top/2019/2019-12-13-zai-ci-zhen-teng-Gridea/</id>
+    <published>2019-12-13T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;关于Gridea&quot;&gt;&lt;a href=&quot;#关于Gridea&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://4op.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Gridea" scheme="https://4op.top/tags/Gridea/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>博客搬家记</title>
+    <link href="https://4op.top/2019/2019-11-28-bo-ke-ban-jia-ji/"/>
+    <id>https://4op.top/2019/2019-11-28-bo-ke-ban-jia-ji/</id>
+    <published>2019-11-28T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;自从  &lt;a href=&quot;http://typecho.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Typecho&lt;/a&gt; 换到hugo后就将博客放到 腾讯云开发者平台也就是&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://4op.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="博客搬家" scheme="https://4op.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AC%E5%AE%B6/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>当了一次小偷</title>
+    <link href="https://4op.top/2019/2019-11-21-dang-le-yi-ci-xiao-tou/"/>
+    <id>https://4op.top/2019/2019-11-21-dang-le-yi-ci-xiao-tou/</id>
+    <published>2019-11-21T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;今天，莫名的当了一次小偷。&quot;&gt;&lt;a href=&quot;#今天，莫名的当了一次小偷。&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://4op.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>双十一剁手</title>
+    <link href="https://4op.top/2019/2019-11-11-shuang-11-duo-shou/"/>
+    <id>https://4op.top/2019/2019-11-11-shuang-11-duo-shou/</id>
+    <published>2019-11-11T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;入冬第四天，感觉温度降的好快，上星期还穿着夹克，这星期就换上了棉衣。&lt;/p&gt;
+&lt;h3 id=&quot;又是一年剁手节&quot;&gt;&lt;a href=&quot;#又是一年剁手节&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="叙事" scheme="https://4op.top/categories/%E5%8F%99%E4%BA%8B/"/>
+    
+    
+    <category term="双11" scheme="https://4op.top/tags/%E5%8F%8C11/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>《工地往事》</title>
+    <link href="https://4op.top/2019/2019-10-18-gong-di-wang-shi/"/>
+    <id>https://4op.top/2019/2019-10-18-gong-di-wang-shi/</id>
+    <published>2019-10-18T00:00:00.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;从2011年毕业到2017年的时间我一直在一家公司任职，从实习到正式工作。除了第一年的时间在是公司工作，第二年我就申请到了项目上。所以，在工地的时间应该是五年半左右。&lt;/p&gt;
+&lt;p&gt;在这五年半期间，涉及到的项目有房建、公路、公园、河道、土地整理等，不同项目也开阔了我眼见。相</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://4op.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="工地" scheme="https://4op.top/tags/%E5%B7%A5%E5%9C%B0/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>明天就是国庆节了</title>
+    <link href="https://4op.top/2019/2019-09-30-guo-qing-jie/"/>
+    <id>https://4op.top/2019/2019-09-30-guo-qing-jie/</id>
+    <published>2019-09-30T01:20:10.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;70华诞快乐&quot;&gt;&lt;a href=&quot;#70华诞快乐&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://4op.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="国庆节" scheme="https://4op.top/tags/%E5%9B%BD%E5%BA%86%E8%8A%82/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>《你好，Hugo》</title>
+    <link href="https://4op.top/2019/2019-09-19-hi-world/"/>
+    <id>https://4op.top/2019/2019-09-19-hi-world/</id>
+    <published>2019-09-19T06:47:10.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本博客使用Hugo搭建。&lt;/p&gt;
+&lt;p&gt;我之前曾推荐过腾讯云开发者平台的&lt;a href=&quot;https://studio.dev.tencent.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;cloud studio&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://4op.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="cloud studio" scheme="https://4op.top/tags/cloud-studio/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>果然的景阳街公园游记-中秋节</title>
+    <link href="https://4op.top/2019/2019-09-16-guo-ran-zhong-qiu-jie/"/>
+    <id>https://4op.top/2019/2019-09-16-guo-ran-zhong-qiu-jie/</id>
+    <published>2019-09-16T01:20:10.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;上星期连着下了三天的雨，天气一直阴着。所以今年的八月十五晚上几乎看不到月亮的存在。星期天带着果然出去见了见世面，毕竟都已经九个月了。平时忙着工作，每天让娃都待在家里和她妈在床上玩。&lt;/p&gt;
+&lt;p&gt;出来效果还是很明显的，在公园里一直盯着比她大的小哥哥和小姐姐们。人家跑到哪里，</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://4op.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="中秋节" scheme="https://4op.top/tags/%E4%B8%AD%E7%A7%8B%E8%8A%82/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>推荐10个优秀的技术栈社区</title>
+    <link href="https://4op.top/2019/2019-04-17-it-site/"/>
+    <id>https://4op.top/2019/2019-04-17-it-site/</id>
+    <published>2019-04-17T01:20:10.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&amp;emsp;作为一个技术人，经验积累对于我们来说无比重要，我们只有不断的学习提升自己才能不被这个圈子淘汰。另外也要不断的总结自己的经验和教训。既然要学习那总要有途径吧，现在网络已经很发达了，社区\论坛随处可见，可高质量并不多。今天拿出来给大家分享一下，这些论坛\社区也是业界</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://4op.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术栈社区" scheme="https://4op.top/tags/%E6%8A%80%E6%9C%AF%E6%A0%88%E7%A4%BE%E5%8C%BA/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>当一次美食博主[宫保鸡丁]</title>
+    <link href="https://4op.top/2019/2019-08-20-gong/"/>
+    <id>https://4op.top/2019/2019-08-20-gong/</id>
+    <published>2019-04-12T01:20:10.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+    <summary type="html">当一次美食博主[宫保鸡丁]</summary>
+    
+    
+    
+    <category term="记录" scheme="https://4op.top/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="果然" scheme="https://4op.top/tags/%E6%9E%9C%E7%84%B6/"/>
+    
+    <category term="美食" scheme="https://4op.top/tags/%E7%BE%8E%E9%A3%9F/"/>
+    
+    <category term="宫保鸡丁" scheme="https://4op.top/tags/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>一束光</title>
+    <link href="https://4op.top/2019/2019-04-07-yi-shu-guang/"/>
+    <id>https://4op.top/2019/2019-04-07-yi-shu-guang/</id>
+    <published>2019-04-07T14:18:18.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我看见前方黑暗的尽头，有一束光在等着我。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2019/04/song-shu-lin.jpg&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://4op.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="松树" scheme="https://4op.top/tags/%E6%9D%BE%E6%A0%91/"/>
+    
+    <category term="山" scheme="https://4op.top/tags/%E5%B1%B1/"/>
+    
+    <category term="光" scheme="https://4op.top/tags/%E5%85%89/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>音乐测试</title>
+    <link href="https://4op.top/2019/2019-04-04-yin-yue-ce-shi/"/>
+    <id>https://4op.top/2019/2019-04-04-yin-yue-ce-shi/</id>
+    <published>2019-04-04T03:05:10.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;100%&quot; height=&quot;86&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://4op.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="音乐" scheme="https://4op.top/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+    <category term="网易云音乐" scheme="https://4op.top/tags/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>(转)微不足道的坚持</title>
+    <link href="https://4op.top/2019/2019-02-23-insist/"/>
+    <id>https://4op.top/2019/2019-02-23-insist/</id>
+    <published>2019-02-23T01:20:10.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本文转自&lt;a href=&quot;https://github.com/lifesinger/blog/issues/198?achuan.io&quot; target=&quot;_blank&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="记录" scheme="https://4op.top/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="坚持" scheme="https://4op.top/tags/%E5%9D%9A%E6%8C%81/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>开源分布式管理控制系统——Git笔记</title>
+    <link href="https://4op.top/2018/2018-10-14-git/"/>
+    <id>https://4op.top/2018/2018-10-14-git/</id>
+    <published>2018-10-14T01:20:10.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Git的诞生&quot;&gt;&lt;a href=&quot;#Git的诞生&quot; class=&quot;headerlink&quot; title=&quot;Git的诞生&quot;&gt;&lt;/a&gt;Git的诞生&lt;/h2&gt;&lt;p&gt;&amp;emsp;故事是自2002年开始，&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://4op.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Git笔记" scheme="https://4op.top/tags/Git%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>致简写作神器——Markdown</title>
+    <link href="https://4op.top/2018/2018-09-03-Markdown/"/>
+    <id>https://4op.top/2018/2018-09-03-Markdown/</id>
+    <published>2018-09-30T01:20:10.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-Markdown？&quot;&gt;&lt;a href=&quot;#1-Markdown？&quot; class=&quot;headerlink&quot; title=&quot;1. Markdown？&quot;&gt;&lt;/a&gt;1. Markdown？&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://4op.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Markdown" scheme="https://4op.top/tags/Markdown/"/>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Ubuntu调教日记之Sublime Text3</title>
+    <link href="https://4op.top/2018/2018-08-30-Ubuntu-set-up-sublime/"/>
+    <id>https://4op.top/2018/2018-08-30-Ubuntu-set-up-sublime/</id>
+    <published>2018-08-30T01:20:10.000Z</published>
+    <updated>2023-07-12T05:20:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;接触linux这段时间真的是各种折腾，我几乎所有把流行的发行版都装了一遍，最终选择了ubuntu18.04，毕竟ui强迫症，还好社区比较强大，遇到毛病解决不会太难，初次接触它的过程中也是遇到各种问题，不过通过这几个月的学习，现在已经我可以熟练敲出各种命令并解决一些日常小毛病</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://4op.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Ubuntu" scheme="https://4op.top/tags/Ubuntu/"/>
+    
+  </entry>
+  
+  
+</feed>
