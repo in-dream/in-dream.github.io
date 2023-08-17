@@ -1142,28 +1142,6 @@
     
     
     <entry>
-      <title>闲言碎语</title>
-      <link href="/bb.html"/>
-      <url>/bb.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>日历</title>
-      <link href="/calendar.html"/>
-      <url>/calendar.html</url>
-      
-        <content type="html"><![CDATA[<link href="/css/calendar.css" rel="stylesheet"><section class="main-section first-section">  <h1 class="mdui-text-center date">01/30</h1>  <p class="mdui-text-center sentence">我们始终在用无知面对世界</p>  <h1 class="mdui-text-center date">03/06/2023</h1>  <p class="mdui-text-center sentence">没有明天的人和没有用的人</p></section>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>友情链接</title>
       <link href="/links.html"/>
       <url>/links.html</url>
@@ -1186,9 +1164,20 @@
     
     
     <entry>
-      <title>提词器</title>
-      <link href="/Teleprompter/index.html"/>
-      <url>/Teleprompter/index.html</url>
+      <title>日历</title>
+      <link href="/calendar.html"/>
+      <url>/calendar.html</url>
+      
+        <content type="html"><![CDATA[<link href="/css/calendar.css" rel="stylesheet"><section class="main-section first-section">  <h1 class="mdui-text-center date">01/30</h1>  <p class="mdui-text-center sentence">我们始终在用无知面对世界</p>  <h1 class="mdui-text-center date">03/06/2023</h1>  <p class="mdui-text-center sentence">没有明天的人和没有用的人</p></section>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>闲言碎语</title>
+      <link href="/bb.html"/>
+      <url>/bb.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1208,9 +1197,9 @@
     
     
     <entry>
-      <title>我的疯言疯语</title>
-      <link href="/bb/index.html"/>
-      <url>/bb/index.html</url>
+      <title>提词器</title>
+      <link href="/Teleprompter/index.html"/>
+      <url>/Teleprompter/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1230,9 +1219,20 @@
     
     
     <entry>
-      <title>柳州 2019 秋</title>
-      <link href="/liuzhou2019.html"/>
-      <url>/liuzhou2019.html</url>
+      <title>我的疯言疯语</title>
+      <link href="/bb/index.html"/>
+      <url>/bb/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>产品图案例</title>
+      <link href="/product-pattern-example.html"/>
+      <url>/product-pattern-example.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1252,9 +1252,9 @@
     
     
     <entry>
-      <title>产品图案例</title>
-      <link href="/product-pattern-example.html"/>
-      <url>/product-pattern-example.html</url>
+      <title>柳州 2019 秋</title>
+      <link href="/liuzhou2019.html"/>
+      <url>/liuzhou2019.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
