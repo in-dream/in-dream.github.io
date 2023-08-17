@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>服务器拯救记</title>
+      <link href="/2023/0817/"/>
+      <url>/2023/0817/</url>
+      
+        <content type="html"><![CDATA[<p>2023年8月11日，周一。<br>这是一个值得悲伤的日子，<br>早上一上班就发现电脑处于宕机状态，经过一系列折腾，得出结论是系统盘坏了。每次重启开机都无法读取到系统盘。其中这一个小时的折腾中，有一次正常开启来，让我天真的以为之前开不了机是意外，现在恢复正常了。所以开了机以后就开始工作，谁曾想干了不到10分钟，直接显示系统异常，然后重启了。<br>再然后就一直读取不到了，联系了修电脑的说是固态硬盘坏了，需要更换。这样一搞，好多资料都没了。虽然大部分数据都用OneDrive备份了，但是一些软件的数据都没了，到现在我都不记得没了些啥，其中包括FinalShell中保存的服务器登录信息。其实是想登录服务器吧memos更新一下，这家伙版本更新太快了。国内的服务器还好，可以直接修改密码。但是又两台甲骨文的服务器，之前一直是用私钥登录的。</p><h3 id="诱因"><a href="#诱因" class="headerlink" title="诱因"></a>诱因</h3><p>不过还好，找了半天，在D盘找到登录的私钥了，但是呢，因为这件事让我有了把服务器改成用账号密码登录的想法，之前一直想搞，但是搁浅了。今天这一搞，却搞出事了。</p><h3 id="后果"><a href="#后果" class="headerlink" title="后果"></a>后果</h3><p>再百度了几篇# 甲骨文免费云服务器改用账号密码登录ssh的文章后了，按照步骤开始搞，其实玩服务器也两三年了，也有一些浅显的认知，按道理讲，改成密码登录应该是没有难度的。到最后的结果就是搞完以后，发现登录不了了，不论是用私钥还是密码，都无法登录。<br>怎么办？怎么办？怎么办？<br>我脑子里一片问号，当时想着最不济也就是搞不成无法密码登录，谁能想到搞到最后直接服务器登不上去了。<br>一番查阅之后，发现是ssh端口关闭了。这就遇到个难题，想开启端口必须先登录进去操作，但是想登录进去必须是端口22开启状态。</p><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>我在想通过其他端口能不能登录，在通过百度查找，再实践后发现行不通。<br>怎么办？怎么办？怎么办？<br>还是处于懵逼状态，这种情况少有人能遇到。<br>索性不管他了，下午重新复盘了一下，当时操作的时候基本上都没问题，唯一可能有问题的地方就是进入vim /etc/ssh/sshd_config 添加   PermitRootLogin yes #允许root登录 PasswordAuthentication yes #开启密码登录  这一步。<br>所以我就在想，如何能把这个文件恢复到修改之前的样子。<br>其实当时都有想法重置服务器了，还好，最后脑洞大开想到办法了。<br>因为除了端口22关闭以为，其它好多端口还开着呢，所以我可以正常登录宝塔面板，登录上去以后打开sshd_config这个文件，看了一遍也没发现不对的地方，当时也搞不懂了，想着死马当活马医，把另一台服务器的文件复制粘贴到这里，然后重启服务器，发现还是不行。<br>难道真的要重置服务器了吗？<br>我试着再查找，看到底是哪里出了问题，知道看见这篇文章，<a href="https://blog.csdn.net/weixin_42170236/article/details/121976934" target="_blank" rel="noopener">Linux修改SSH默认22端口</a>，<br>![[Pasted image 20230817152722.png]]我试着把22前面的＃去掉后，发现端口竟然开启了。<br>这一点没搞明白，另一台服务器中这个地方也是有#的，但是可以正常登录，这台服务器在今天折腾之前肯定也是有#的，到现在也没搞懂错在哪里。</p><h3 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h3><p>搞不懂就不搞了，一个学土木的搞懂这些干啥，能不重置登录就行了。</p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ol><li>电脑要长备份，数据无价，一但丢失会很麻烦。</li><li>服务器少折腾，工作重要，折腾太浪费时间，有时间不如多看看书。</li><li>尽快把手里的数据整理归档，现在太散了，到处都是，找起来很不方便，而且少了些啥也不知道。</li><li>尽快把从hexo换到hugo，用上木木老师的主题，太香了。</li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>安装指定版本的Hexo</title>
       <link href="/2023/2023-07-19/"/>
       <url>/2023/2023-07-19/</url>
@@ -1142,22 +1155,11 @@
     
     
     <entry>
-      <title>友情链接</title>
-      <link href="/links.html"/>
-      <url>/links.html</url>
+      <title>闲言碎语</title>
+      <link href="/bb.html"/>
+      <url>/bb.html</url>
       
-        <content type="html"><![CDATA[<h2 id="友情链接政策"><a href="#友情链接政策" class="headerlink" title="友情链接政策"></a>友情链接政策</h2><ul><li>全站 HTTPS</li><li>文章内容以原创、技术、日常为主</li><li>非免费域名</li><li>网站营运时间一年以上</li></ul><p><strong>上面要求都是假的</strong></p><blockquote><p>Always believe that something wonderful is about to happen.</p></blockquote>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>简历</title>
-      <link href="/resume.html"/>
-      <url>/resume.html</url>
-      
-        <content type="html"><![CDATA[<p style="text-align: center"> 琛苏设计 </p><p style="text-align: center"> 广西壮族自治区 南宁市青秀区仙葫经济开发区 五合大道合兴路 3 号 南宁师范大学五合校区 </p><p style="text-align: center"> aiokr@outlook.com </p><h2 id="教育经历"><a href="#教育经历" class="headerlink" title="教育经历"></a>教育经历</h2><p><strong>南宁师范大学</strong> 2018.9 至今</p><p>所修专业：工商管理类 文化产业管理专业<br>技能证书：普通话水平等级测试二级乙等</p><h3 id="所获荣誉"><a href="#所获荣誉" class="headerlink" title="所获荣誉"></a>所获荣誉</h3><p>森林工作室 2018 年度先进个人（2018.12）<br>森林工作室 2019 年度先进个人 （2019.6）<br>南宁师范大学文创有料创意市集·暨第十届网络文化艺术节开幕式 优秀摊主 （2019.11）</p><h2 id="社团和组织经历"><a href="#社团和组织经历" class="headerlink" title="社团和组织经历"></a>社团和组织经历</h2><p>南宁师范大学经济与管理学院第十五届青年志愿者协会 宣传部 干事（2018.10-2019.1）<br>南宁师范大学经济与管理学院第十五届青年志愿者协会 宣传部 助理（2019.3-2019.6）</p><p>南宁师范大学经济与管理学院文化产业数字实验室（森林工作室）摄影摄像部 成员（2018.10-2019.6）</p><ul><li>广西师范学院经济与管理学院 2018 年青春风采大赛直播拍摄（2018.10 南宁）</li><li>南宁市 2019 年「我和我的祖国——壮族三月三·八桂嘉年华」文化旅游主场活动（2019.4 南宁）</li><li>南宁师范大学经济与管理学院 2019 年商务精英挑战赛直播拍摄（2019.5 南宁）</li></ul><p>南宁师范大学经济与管理学院文化产业数字实验室（森林工作室）摄影摄像部 部长（2019.6 至今）</p><ul><li>南宁师范大学经济与管理学院 2019 年毕业生晚会直播拍摄（2019.6 南宁）</li><li>广西重大科技专项「全域数字文化旅游智能服务技术研发与应用」项目考察及图像数据收集（2019.7 崇左）</li><li>南宁职业技术学院暑期三下乡重点团队「中外学生同讲中国故事，共建新农村教育帮扶基地」项目纪实视频拍摄（2019.7 百色）</li><li>2019 广西高校大学生市场营销大赛暨首届广西大学生乡村振兴创客大赛「归去来兮」团队部分视频拍摄（2019.11 南宁）</li><li>南宁师范大学经济与管理学院 2019 年青春风采大赛直播负责人（2019.11 南宁）</li></ul><h2 id="项目经历"><a href="#项目经历" class="headerlink" title="项目经历"></a>项目经历</h2><h3 id="柳州高级中学模拟联合国协会-技术顾问（2019-2-至今）"><a href="#柳州高级中学模拟联合国协会-技术顾问（2019-2-至今）" class="headerlink" title="柳州高级中学模拟联合国协会 技术顾问（2019.2 至今）"></a>柳州高级中学模拟联合国协会 技术顾问（2019.2 至今）</h3><p>2019 柳州市渊文模拟联合国大会（2019.6 柳州）</p><ul><li>担任组织委员会成员，技术总监。</li><li>负责会议物料设计、文件排版、会场引导标识制作。</li><li>负责会议回顾视频拍摄与后期剪辑调色工作，相关视频发布在公众平台，获得超过 600 的播放量。</li></ul><h2 id="其他项目"><a href="#其他项目" class="headerlink" title="其他项目"></a>其他项目</h2><p>个人自媒体平台（网站、微信公众号） （2018.5 至今）<br>2020 天津四校联会暨第四届实华模拟联合国大会 会议物料设计 文件排版 （2020.2 天津）<br>2020 环梦模拟联合国南方峰会 技术部成员 会议部分物料设计 （2020.2 长沙）</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -1175,11 +1177,22 @@
     
     
     <entry>
-      <title>闲言碎语</title>
-      <link href="/bb.html"/>
-      <url>/bb.html</url>
+      <title>友情链接</title>
+      <link href="/links.html"/>
+      <url>/links.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="友情链接政策"><a href="#友情链接政策" class="headerlink" title="友情链接政策"></a>友情链接政策</h2><ul><li>全站 HTTPS</li><li>文章内容以原创、技术、日常为主</li><li>非免费域名</li><li>网站营运时间一年以上</li></ul><p><strong>上面要求都是假的</strong></p><blockquote><p>Always believe that something wonderful is about to happen.</p></blockquote>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>简历</title>
+      <link href="/resume.html"/>
+      <url>/resume.html</url>
+      
+        <content type="html"><![CDATA[<p style="text-align: center"> 琛苏设计 </p><p style="text-align: center"> 广西壮族自治区 南宁市青秀区仙葫经济开发区 五合大道合兴路 3 号 南宁师范大学五合校区 </p><p style="text-align: center"> aiokr@outlook.com </p><h2 id="教育经历"><a href="#教育经历" class="headerlink" title="教育经历"></a>教育经历</h2><p><strong>南宁师范大学</strong> 2018.9 至今</p><p>所修专业：工商管理类 文化产业管理专业<br>技能证书：普通话水平等级测试二级乙等</p><h3 id="所获荣誉"><a href="#所获荣誉" class="headerlink" title="所获荣誉"></a>所获荣誉</h3><p>森林工作室 2018 年度先进个人（2018.12）<br>森林工作室 2019 年度先进个人 （2019.6）<br>南宁师范大学文创有料创意市集·暨第十届网络文化艺术节开幕式 优秀摊主 （2019.11）</p><h2 id="社团和组织经历"><a href="#社团和组织经历" class="headerlink" title="社团和组织经历"></a>社团和组织经历</h2><p>南宁师范大学经济与管理学院第十五届青年志愿者协会 宣传部 干事（2018.10-2019.1）<br>南宁师范大学经济与管理学院第十五届青年志愿者协会 宣传部 助理（2019.3-2019.6）</p><p>南宁师范大学经济与管理学院文化产业数字实验室（森林工作室）摄影摄像部 成员（2018.10-2019.6）</p><ul><li>广西师范学院经济与管理学院 2018 年青春风采大赛直播拍摄（2018.10 南宁）</li><li>南宁市 2019 年「我和我的祖国——壮族三月三·八桂嘉年华」文化旅游主场活动（2019.4 南宁）</li><li>南宁师范大学经济与管理学院 2019 年商务精英挑战赛直播拍摄（2019.5 南宁）</li></ul><p>南宁师范大学经济与管理学院文化产业数字实验室（森林工作室）摄影摄像部 部长（2019.6 至今）</p><ul><li>南宁师范大学经济与管理学院 2019 年毕业生晚会直播拍摄（2019.6 南宁）</li><li>广西重大科技专项「全域数字文化旅游智能服务技术研发与应用」项目考察及图像数据收集（2019.7 崇左）</li><li>南宁职业技术学院暑期三下乡重点团队「中外学生同讲中国故事，共建新农村教育帮扶基地」项目纪实视频拍摄（2019.7 百色）</li><li>2019 广西高校大学生市场营销大赛暨首届广西大学生乡村振兴创客大赛「归去来兮」团队部分视频拍摄（2019.11 南宁）</li><li>南宁师范大学经济与管理学院 2019 年青春风采大赛直播负责人（2019.11 南宁）</li></ul><h2 id="项目经历"><a href="#项目经历" class="headerlink" title="项目经历"></a>项目经历</h2><h3 id="柳州高级中学模拟联合国协会-技术顾问（2019-2-至今）"><a href="#柳州高级中学模拟联合国协会-技术顾问（2019-2-至今）" class="headerlink" title="柳州高级中学模拟联合国协会 技术顾问（2019.2 至今）"></a>柳州高级中学模拟联合国协会 技术顾问（2019.2 至今）</h3><p>2019 柳州市渊文模拟联合国大会（2019.6 柳州）</p><ul><li>担任组织委员会成员，技术总监。</li><li>负责会议物料设计、文件排版、会场引导标识制作。</li><li>负责会议回顾视频拍摄与后期剪辑调色工作，相关视频发布在公众平台，获得超过 600 的播放量。</li></ul><h2 id="其他项目"><a href="#其他项目" class="headerlink" title="其他项目"></a>其他项目</h2><p>个人自媒体平台（网站、微信公众号） （2018.5 至今）<br>2020 天津四校联会暨第四届实华模拟联合国大会 会议物料设计 文件排版 （2020.2 天津）<br>2020 环梦模拟联合国南方峰会 技术部成员 会议部分物料设计 （2020.2 长沙）</p>]]></content>
       
     </entry>
     
@@ -1208,11 +1221,11 @@
     
     
     <entry>
-      <title>南宁 2019 秋</title>
-      <link href="/nanning2019.html"/>
-      <url>/nanning2019.html</url>
+      <title>柳州 2020 春</title>
+      <link href="/liuzhou2020spring.html"/>
+      <url>/liuzhou2020spring.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>今天终于有时间出门看紫荆花了。前几天一直阴雨绵绵，花开了又被雨打掉了不少，紫荆花也稀稀疏疏地挂在树上。</p>]]></content>
       
     </entry>
     
@@ -1222,6 +1235,28 @@
       <title>我的疯言疯语</title>
       <link href="/bb/index.html"/>
       <url>/bb/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>柳州 2019 秋</title>
+      <link href="/liuzhou2019.html"/>
+      <url>/liuzhou2019.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>南宁 2019 秋</title>
+      <link href="/nanning2019.html"/>
+      <url>/nanning2019.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1241,28 +1276,6 @@
     
     
     <entry>
-      <title>柳州 2020 春</title>
-      <link href="/liuzhou2020spring.html"/>
-      <url>/liuzhou2020spring.html</url>
-      
-        <content type="html"><![CDATA[<p>今天终于有时间出门看紫荆花了。前几天一直阴雨绵绵，花开了又被雨打掉了不少，紫荆花也稀稀疏疏地挂在树上。</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>柳州 2019 秋</title>
-      <link href="/liuzhou2019.html"/>
-      <url>/liuzhou2019.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>导航</title>
       <link href="/navigate/index.html"/>
       <url>/navigate/index.html</url>
@@ -1274,9 +1287,9 @@
     
     
     <entry>
-      <title>工具箱</title>
-      <link href="/tools/index.html"/>
-      <url>/tools/index.html</url>
+      <title>作品</title>
+      <link href="/work/index.html"/>
+      <url>/work/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1285,9 +1298,9 @@
     
     
     <entry>
-      <title>作品</title>
-      <link href="/work/index.html"/>
-      <url>/work/index.html</url>
+      <title>工具箱</title>
+      <link href="/tools/index.html"/>
+      <url>/tools/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
